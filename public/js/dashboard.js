@@ -7,7 +7,7 @@
 				console.log(returnedValue);
 				returnedValue.forEach(function(user){
 					document.getElementById('userList').innerHTML=document.getElementById('userList').innerHTML+user.name
-					+"<br> "+user.email+"<br> "+user.sex+"<br> "+user.profile+"<hr>";
+					+"<br> "+user.email+"<br> "+user.sex+"<br> "+user.profile_url+"<hr>";
 				})
 
 		}).catch(function(err) {
